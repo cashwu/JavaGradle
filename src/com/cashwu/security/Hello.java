@@ -1,4 +1,4 @@
-package com.cashwu;
+package com.cashwu.security;
 
 public class Hello {
     

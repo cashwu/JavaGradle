@@ -11,3 +11,18 @@ gradle wrapper
 
 ./gradlew build
 ```
+
+## CH 3
+
+```shell
+gradle build
+gradle clean
+
+gradle clean build
+```
+
+## CH 4
+
+```shell
+gradle run
+```
