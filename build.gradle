@@ -1,0 +1,9 @@
+plugins {
+ id 'java'
+}
+
+task 'hello' {
+    doLast {
+        println 'Hello World!'
+    }
+}
