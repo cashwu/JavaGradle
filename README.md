@@ -26,3 +26,8 @@ gradle clean build
 ```shell
 gradle run
 ```
+
+
+```shell
+gradle javadoc
+```
