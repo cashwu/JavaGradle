@@ -1,3 +1,9 @@
+buildscript {
+    ext {
+        log4j_version = '1.2.9'
+    }
+}
+
 plugins {
     id 'application'
 }
@@ -10,6 +16,23 @@ java {
 }
 
 version = '1.0'
+
+repositories {
+    jcenter()
+
+    url "http://jcenter.bintray.com"
+
+    flatDir {
+        dirs "libs"
+    }
+}
+
+dependencies {
+    // implementation group: 'log4j', name: 'log4j', version: '1.2.17'
+    implementation group: 'javax.xml.bind', name: 'jaxb-api', version: '2.3.1'
+    implementation "log4j:log4j:$log4j_version"
+    testImplementation 'junit:junit:4.13.2'
+}
 
 sourceSets {
     main {

@@ -31,3 +31,10 @@ gradle run
 ```shell
 gradle javadoc
 ```
+
+## CH 5
+
+```shell
+gradle -q dependencies 
+gradle -q dependencies --configuration compileClasspath 
+```
