@@ -34,5 +34,16 @@ dependencies {
   testImplementation 'junit:junit:4.12'
 }
 
+task singleTest (type: Test){
+  group = "Verification"
+  description = "Runs a single test"
+
+  dependsOn testClasses
+
+  filter {
+   includeTestsMatching 'com.pluralsight.security.TestCreateStreams.testWhenInputFileDoesExist'
+   }
+
+}
 
 mainClassName = "com.pluralsight.security.Hash"

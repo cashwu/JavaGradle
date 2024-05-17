@@ -45,4 +45,6 @@ gradle -q dependencies --configuration compileClasspath
 ```shell
 gradle clean build --console plain 
 
+
+gradle clean singleTest 
 ```
