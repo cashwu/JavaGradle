@@ -46,7 +46,7 @@ task singleTest (type: Test){
 
   filter {
    includeTestsMatching 'com.pluralsight.security.TestCreateStreams.testWhenInputFileDoesExist'
-  }
+   }
 
 }
 

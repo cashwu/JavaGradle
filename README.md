@@ -48,3 +48,14 @@ gradle clean build --console plain
 
 gradle clean singleTest 
 ```
+
+
+## CH 8
+
+```shell
+gradle wrapper
+
+gradle wrapper --gradle-version 8.0 --distribution-type all
+
+gradle wrapper --warning-mode all   
+```
