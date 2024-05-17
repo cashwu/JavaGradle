@@ -38,3 +38,11 @@ gradle javadoc
 gradle -q dependencies 
 gradle -q dependencies --configuration compileClasspath 
 ```
+
+
+## CH 7
+
+```shell
+gradle clean build --console plain 
+
+```
